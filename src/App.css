@@ -1,0 +1,78 @@
+#root {
+  margin: 0;
+  text-align: center;
+}
+
+nav {
+  top: 0;
+  width: 100%;
+}
+
+.maquina {
+  padding: 1.5rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+
+.logo-ganador {
+  filter: drop-shadow(0 0 2em #646cffaa);
+}
+
+.logo {
+  height: 5rem;
+  will-change: filter;
+  transition: filter 300ms;
+}
+
+.card {
+  padding: 1rem 2rem;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.card label {
+  width: 100%;
+  text-align: start;
+}
+
+.card input {
+  width: 100%;
+}
+
+.read-the-docs {
+  color: #888;
+}
+
+.ejemplo {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.barra {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  grid-gap: 1rem;
+}
+
+.maquinas {
+  top: 20rem;
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-wrap: wrap;
+}
+
+.data {
+  font-size: small;
+}
+
+.numero-Maquina {
+  font-weight: 900;
+  font-size: 1.5rem;
+}
